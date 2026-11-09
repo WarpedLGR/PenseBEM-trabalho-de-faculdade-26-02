@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Pense Bem - Street fighter</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <img src="LogoTectoy.png" alt="Logo da Tectoy" id="Logo">
+
+            <p><input type="text" id="tela1" value="*" readonly></p>
+            <p><input type="text" id="tela2" value="*" readonly></p>
+            <p>
+                <input type="button" class="botao" id="btA" value="A" onclick="jogar(this.value)">
+                <input type="button" class="botao" id="btB" value="B" onclick="jogar(this.value)">
+                <input type="button" class="botao" id="btC" value="C" onclick="jogar(this.value)">
+                <input type="button" class="botao" id="btD" value="D" onclick="jogar(this.value)">
+            </p>
+
+            <p><input type="button" id="btStart" value="START/RESET" onclick= "iniciar()"></p>
+
+        </div>
+    </body>
+</html>
